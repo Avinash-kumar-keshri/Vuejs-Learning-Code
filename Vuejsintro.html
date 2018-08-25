@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vuejs Tutorial</title>
+</head>
+<body>
+<!--Through javascript-->
+
+<input id="txt" type="txt">
+<p id="message"></p>
+
+<script type="text/javascript">
+
+    var txt =document.getElementById('txt');
+    // console.log(txt);
+    var message=document.getElementById('message');
+    // console.log(txt);
+
+    txt.addEventListener('keyup',function(){
+        message.innerHTML=this.value;
+    });
+</script>
+
+
+<!--Through jquery-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#txt').on('keyup',function(){
+            $('#message').html(this.value);
+        });
+    });
+</script>
+
+
+
+<!--Through Vue js-->
+<div id="app">
+    <template>
+      <input v-model="message">
+        <p v-text="message"></p>
+    </template>
+</div>
+
+<script src="vue.js"></script>
+<script>
+    var app =new Vue({
+        el:"#app",
+        data:{
+            message:"dsadsds"
+        }
+    });
+</script>
+
+</body>
+</html>
