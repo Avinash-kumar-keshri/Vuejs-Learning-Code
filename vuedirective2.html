@@ -30,6 +30,16 @@
     </template>
 </div>
 
+<div id="obj">
+    <template>
+        <!--Mapping an Object to Elements with v-for-->
+        <ul>
+            <li v-for="(value,key) in object">
+                {{ key}} : {{value}}
+            </li>
+        </ul>
+    </template>
+</div>
 
 
 
@@ -42,7 +52,7 @@
          items:['Avinash','Rajesh','Dharmesh','Bipul']
      }
  });
- var app = new Vue({
+ var root = new Vue({
      el:"#root",
      data:{
          studentName:[
@@ -51,6 +61,17 @@
              {name:'Dharmesh'},
              {name:'Bipul'}
              ]
+     }
+ });
+
+ var obj = new Vue({
+     el:"#obj",
+     data:{
+         object:{
+             firstName:'avinash',
+             lastName:"keshri",
+             age:23
+         }
      }
  });
 </script>
