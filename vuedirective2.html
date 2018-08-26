@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vuejs Tutorial</title>
+</head>
+<body>
+
+
+<!--Through Vue js-->
+<div id="app">
+    <template>
+        <!--Mapping an Array to Elements with v-for-->
+        <ul>
+            <li v-for="(item,index) in items">
+               {{index}} - {{item}}
+            </li>
+        </ul>
+    </template>
+</div>
+
+<div id="root">
+    <template>
+        <!--Mapping an Array to Elements with v-for-->
+        <ul>
+            <li v-for="(value,index) in studentName">
+               {{ index}} - {{value.name}}
+            </li>
+        </ul>
+    </template>
+</div>
+
+
+
+
+
+<script src="vue.js"></script>
+<script>
+ var app = new Vue({
+     el:"#app",
+     data:{
+         items:['Avinash','Rajesh','Dharmesh','Bipul']
+     }
+ });
+ var app = new Vue({
+     el:"#root",
+     data:{
+         studentName:[
+             {name:'Avinash'},
+             {name:'Rajesh'},
+             {name:'Dharmesh'},
+             {name:'Bipul'}
+             ]
+     }
+ });
+</script>
+
+</body>
+</html>
