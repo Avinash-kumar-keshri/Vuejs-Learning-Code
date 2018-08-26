@@ -41,6 +41,22 @@
     </template>
 </div>
 
+<div id="parent">
+    <template>
+        <!--Mapping an Element with v-on-mouse keyup and enter-->
+
+   <input type="text" id="txt" v-on:keyup.enter="addElement">
+        <ul>
+            <li v-for="(value,index) in items">
+                {{index}} -{{value}}
+            </li>
+        </ul>
+        <!--Mapping an Element with v-on-click-prevent-->
+
+    <a href="https://google.com" v-on:click.prevent="checkHref">Click Me</a>
+
+    </template>
+</div>
 
 
 
@@ -71,6 +87,23 @@
              firstName:'avinash',
              lastName:"keshri",
              age:23
+         }
+     }
+ });
+
+ var parent = new Vue({
+     el:"#parent",
+     data:{
+         items:['Avinash','Rajesh','Dharmesh','Bipul']
+     },
+     methods:{
+         addElement:function(){
+            var name =document.getElementById('txt');
+             this.items.push(name.value);
+             name.value='';
+         },
+         checkHref:function(event){
+             console.log(event.srcElement.href);
          }
      }
  });
