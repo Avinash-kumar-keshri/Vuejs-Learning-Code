@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vuejs Tutorial</title>
+</head>
+<style>
+
+</style>
+<body>
+
+
+<!--Through Vue js-->
+<div id="app">
+    <template>
+        <!--Mapping an  Elements with V-pre Directive-->
+        <!-- By The use of v-pre Directive that does not compile the code related
+        to that so vue js execution time decreases -->
+
+        <p>{{message}}</p>
+        <p v-pre>{{message}}</p>
+    </template>
+
+    <template>
+        <!--Mapping an  Elements with V-once Directive-->
+        <!--Use of v-once Directive that  compile the code only Once -->
+
+        <h1 v-once>{{message}}</h1>
+        <p>{{message}}</p>
+    </template>
+
+    <template>
+        <!--Mapping an  Elements with V-model Directive-->
+        <!--v-model directive provides two way data binding and it is use in input,
+         textarea,select.. etc.-->
+
+        <input v-model.number.trim.lazy="message1" type="text">
+        <input v-model.number.trim.lazy="message2" type="text">
+        <p>{{message1 + message2}}</p>
+    </template>
+
+
+</div>
+
+
+<script src="vue.js"></script>
+<script>
+ var app =new Vue({
+   el:"#app",
+   data:{
+     message:"Hello world!",
+     message1:'Avinash',
+     message2:'keshri'
+   }
+ });
+</script>
+
+</body>
+</html>
