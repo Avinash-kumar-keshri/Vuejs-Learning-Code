@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec86fae-5dab-45be-8a27-82d2c86e9c9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vuetemp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuejsdirective3.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuejsdirective3.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vuejsdirective3.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vuejsdirective3.html">
+      <file leaf-file-name="vuetemp.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vuetemp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+            <state relative-caret-position="629">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -74,6 +76,7 @@
         <option value="$PROJECT_DIR$/vuedirective1.html" />
         <option value="$PROJECT_DIR$/vuedirective2.html" />
         <option value="$PROJECT_DIR$/vuejsdirective3.html" />
+        <option value="$PROJECT_DIR$/vuetemp.html" />
       </list>
     </option>
   </component>
@@ -144,12 +147,12 @@
       <updated>1535195232156</updated>
       <workItem from="1535195233633" duration="9483000" />
       <workItem from="1535268898553" duration="5466000" />
-      <workItem from="1535347944464" duration="3170000" />
+      <workItem from="1535347944464" duration="5136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18119000" />
+    <option name="totallyTimeSpent" value="20085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="912" y="31" width="1008" height="981" extended-state="0" />
@@ -233,9 +236,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vuejsdirective3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vuetemp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        <state relative-caret-position="629">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
