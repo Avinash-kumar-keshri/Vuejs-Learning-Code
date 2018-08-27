@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec86fae-5dab-45be-8a27-82d2c86e9c9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vuejs-components2.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuejs-components2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuejs-filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vuejs-components2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vuejs-components2.html">
+      <file leaf-file-name="vuejs-filter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vuejs-filter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+            <state relative-caret-position="451">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -78,6 +79,7 @@
         <option value="$PROJECT_DIR$/vuejs-components.html" />
         <option value="$PROJECT_DIR$/vuejs-components1.html" />
         <option value="$PROJECT_DIR$/vuejs-components2.html" />
+        <option value="$PROJECT_DIR$/vuejs-filter.html" />
       </list>
     </option>
   </component>
@@ -148,12 +150,12 @@
       <updated>1535195232156</updated>
       <workItem from="1535195233633" duration="9483000" />
       <workItem from="1535268898553" duration="5466000" />
-      <workItem from="1535347944464" duration="12349000" />
+      <workItem from="1535347944464" duration="14600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27298000" />
+    <option name="totallyTimeSpent" value="29549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="912" y="31" width="1008" height="981" extended-state="0" />
@@ -268,8 +270,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vuejs-components2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        <state relative-caret-position="401">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vuejs-filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
