@@ -4,6 +4,12 @@
 <head>
     <title>Vuejs Tutorial</title>
 </head>
+<style>
+    .data{
+        color:red;
+        text-transform: uppercase;
+    }
+</style>
 <body>
 
 
@@ -12,9 +18,7 @@
     <template>
         <!--Mapping an Array to Elements with v-for-->
         <ul>
-            <li v-for="(item,index) in items">
-               {{index}} - {{item}}
-            </li>
+            <li v-for="(item,index) in items" v-bind:class="colourcode"> {{item}} </li>
         </ul>
     </template>
 </div>
@@ -23,9 +27,7 @@
     <template>
         <!--Mapping an Array to Elements with v-for-->
         <ul>
-            <li v-for="(value,index) in studentName">
-               {{ index}} - {{value.name}}
-            </li>
+            <li v-for="(value,index) in studentName" v-bind:title="value.name">{{ index}} - {{value.name}} </li>
         </ul>
     </template>
 </div>
@@ -34,9 +36,7 @@
     <template>
         <!--Mapping an Object to Elements with v-for-->
         <ul>
-            <li v-for="(value,key) in object">
-                {{ key}} : {{value}}
-            </li>
+            <li v-for="(value,key) in object" v-bind:title="value">  {{ key}} : {{value}}  </li>
         </ul>
     </template>
 </div>
@@ -47,9 +47,7 @@
 
    <input type="text" id="txt" v-on:keyup.enter="addElement">
         <ul>
-            <li v-for="(value,index) in items">
-                {{index}} -{{value}}
-            </li>
+            <li v-for="(value,index) in items" v-bind:title="value"> {{index}} -{{value}} </li>
         </ul>
         <!--Mapping an Element with v-on-click-prevent-->
 
@@ -65,6 +63,7 @@
  var app = new Vue({
      el:"#app",
      data:{
+         colourcode:'data',
          items:['Avinash','Rajesh','Dharmesh','Bipul']
      }
  });
@@ -84,9 +83,9 @@
      el:"#obj",
      data:{
          object:{
-             firstName:'avinash',
-             lastName:"keshri",
-             age:23
+             firstName:'Avinash',
+             lastName:"Keshri",
+             fullName:"Avinash Keshri"
          }
      }
  });
