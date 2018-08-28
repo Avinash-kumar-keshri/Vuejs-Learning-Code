@@ -9,17 +9,36 @@
 <body>
 <div id="app">
 
-    <my-components></my-components>
+    <task-list></task-list>
 
 </div>
 
 <script src="vue.js"></script>
 
 <script>
-  var app =new Vue({
-
-
-  }).$mount("#app");
+    Vue.component('task-list',{
+      template:`
+          <div>
+          <task v-for="task in tasks">{{task.task}}</task>
+          </div>
+      `,
+      data:function(){
+        return{
+          tasks:[
+            { task:'go to the store'},
+            { task:'go to the email'},
+            { task:'go to the farm'},
+            { task:'go to the work'},
+          ]
+        }
+      }
+    });
+    Vue.component('task',{
+      template:`
+       <li><slot></slot></li>
+      `,
+    })
+  var app =new Vue({ }).$mount("#app");
 </script>
 
 </body>
