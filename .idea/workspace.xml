@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ec86fae-5dab-45be-8a27-82d2c86e9c9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vuejs-axios1.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuejs-axios1.html" afterDir="false" />
-    </list>
+    <list default="true" id="5ec86fae-5dab-45be-8a27-82d2c86e9c9a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="vuejs-axios1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vuejs-axios1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="354">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -163,12 +161,12 @@
       <workItem from="1535195233633" duration="9483000" />
       <workItem from="1535268898553" duration="5466000" />
       <workItem from="1535347944464" duration="15703000" />
-      <workItem from="1535431341091" duration="6242000" />
+      <workItem from="1535431341091" duration="6440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36894000" />
+    <option name="totallyTimeSpent" value="37092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="912" y="31" width="1008" height="981" extended-state="0" />
@@ -322,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vuejs-axios1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="354">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
