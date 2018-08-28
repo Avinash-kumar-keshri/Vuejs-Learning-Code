@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ec86fae-5dab-45be-8a27-82d2c86e9c9a" name="Default Changelist" comment="" />
+    <list default="true" id="5ec86fae-5dab-45be-8a27-82d2c86e9c9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vuejs-component.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,12 +169,12 @@
       <workItem from="1535268898553" duration="5466000" />
       <workItem from="1535347944464" duration="15703000" />
       <workItem from="1535431341091" duration="6440000" />
-      <workItem from="1535440513756" duration="224000" />
+      <workItem from="1535440513756" duration="720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37316000" />
+    <option name="totallyTimeSpent" value="37812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="912" y="31" width="1008" height="981" extended-state="0" />
