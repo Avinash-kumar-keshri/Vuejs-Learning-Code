@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vuejs Tutorial</title>
+</head>
+<style>
+
+</style>
+<body>
+
+<!--Through Vue js-->
+<div id="app">
+
+    <my-component></my-component>
+
+</div>
+
+<div id="root">
+
+    <my-components></my-components>
+
+</div>
+
+<script src="vue.js"></script>
+
+<!-- Local Registraion -->
+<script>
+
+  var app =new Vue({
+
+    components:{
+      'my-component':{
+        template:`
+           <h1>Hello World!</h1>
+          `,
+      }
+    }
+
+  }).$mount("#app");
+
+</script>
+
+<!-- Global Registraion -->
+<script>
+
+  Vue.component('my-components',{
+    template:`
+        <h1 id="one" class="two">{{name}}</h1>
+      `,
+    data:function() {
+      return {
+        name:"Welcome to the World!"
+      }
+    }
+  });
+
+  var root =new Vue({ }).$mount("#root");
+
+</script>
+
+</body>
+</html>
